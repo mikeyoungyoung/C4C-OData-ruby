@@ -25,9 +25,6 @@
       location = "group:app.rb">
    </FileRef>
    <FileRef
-      location = "group:app_v2.rb">
-   </FileRef>
-   <FileRef
       location = "group:views/index.haml"
       assignedFileDataType = "public.html">
    </FileRef>

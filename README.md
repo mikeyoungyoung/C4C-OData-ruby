@@ -1,6 +1,7 @@
 # AWS SDK for Ruby Sample Project
 
-A simple Ruby application illustrating usage of SAP Cloud for Customer OData Services using [Sinatra](http://www.sinatrarb.com) and [Ruby_OData](https://github.com/visoft/ruby_odata)
+A simple Ruby application illustrating usage of SAP Cloud for Customer OData Services using [Sinatra](http://www.sinatrarb.com) and [Ruby_OData](https://github.com/visoft/ruby_odata).  A live version 
+is available on [Heroku](https://c4c-odata-ruby.herokuapp.com/)
 
 ## Requirements
 
