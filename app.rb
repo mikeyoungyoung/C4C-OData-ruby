@@ -18,7 +18,7 @@ end
 post '/' do
     @accountid = params[:accountid]
     @oppt_list = get_acct_opps(@accountid) #need handling of failed requests
-    
+    puts @oppt_list.class
     
     redirect('/') unless @oppt_list
     
