@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="C4c-odata-ruby : Example use of SAP C4C OData services with a ruby Sinatra &amp; ruby_odata App">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>C4c-odata-ruby</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mikeyoungyoung/C4C-OData-ruby">View on GitHub</a>
+
+          <h1 id="project_title">C4c-odata-ruby</h1>
+          <h2 id="project_tagline">Example use of SAP C4C OData services with a ruby Sinatra &amp; ruby_odata App</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mikeyoungyoung/C4C-OData-ruby/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mikeyoungyoung/C4C-OData-ruby/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="sinatra-application-to-query-sap-c4c-odata-services" class="anchor" href="#sinatra-application-to-query-sap-c4c-odata-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sinatra Application to Query SAP C4C OData services</h1>
+
+<p>A simple Ruby application illustrating usage of SAP Cloud for Customer OData Services using <a href="http://www.sinatrarb.com">Sinatra</a> and <a href="https://github.com/visoft/ruby_odata">Ruby_OData</a>.  A live version 
+is available on <a href="https://c4c-odata-ruby.herokuapp.com/">Heroku</a></p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<p>The only requirement of this application is <a href="http://bundler.io">Bundler</a>. All other dependencies can be installed with:</p>
+
+<pre><code>bundle install
+</code></pre>
+
+<p>Additionally, you must have access to an SAP Cloud for Customer Tenant</p>
+
+<h2>
+<a id="basic-configuration" class="anchor" href="#basic-configuration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Configuration</h2>
+
+<p>While this obvisouly isn't the most secure way to connect, this application simply provides 
+hard-coded root service and authentication credentials.  More security could be added by the 
+use of OAuth in C4C.  The following is a snippet from lines 10 &amp; 11 of app.rb.  Replace all XXXXXX 
+with your specific details</p>
+
+<pre><code>$root_svc = "https://myXXXXXX.crm.ondemand.com/sap/byd/odata/v1/C4C.SVC"
+$svc = OData::Service.new $root_svc, { :username =&gt; "&lt;user name&gt;", :password=&gt; "&lt;password&gt;" }
+</code></pre>
+
+<h2>
+<a id="running-the-application" class="anchor" href="#running-the-application" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running the Application</h2>
+
+<p>Once verified that ruby is on your local machine, navigate to the directory containing app.rb 
+and run</p>
+
+<pre><code>ruby app.rb
+</code></pre>
+
+<p>Then open a browser and go to</p>
+
+<pre><code>localhost:4567
+</code></pre>
+
+<p>The application can also be run on your PaaS provider of choice so longs as they provide support 
+for Sinatra Applications</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">C4c-odata-ruby maintained by <a href="https://github.com/mikeyoungyoung">mikeyoungyoung</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
