@@ -23,7 +23,7 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand{:href => "#"} Opportunity List
+          %a.navbar-brand{:href => "/"} Opportunity List
         #navbar.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
@@ -36,6 +36,14 @@
             %button.btn.btn-default{:type => "submit"} Submit
     %br
     .container
+      .panel.panel-info
+        .panel-heading
+          Example Account ID's
+        .panel-body
+          %p please is the following account ID's (others could work, but it would be luck)
+          %li 10005
+          %li 10006
+          %li 10007
       .panel.panel-default.text-center
         =yield
   %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"}

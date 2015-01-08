@@ -1,11 +1,9 @@
 #!/usr/bin/ruby -w
 
-URL = "https://my304338.crm.ondemand.com/sap/byd/odata/v1/C4C.SVC/OpportunityCollection"
+#URL = "https://my304338.crm.ondemand.com/sap/byd/odata/v1/C4C.SVC/OpportunityCollection"
 #Filter URL
-URL_filt = "https://my304338.crm.ondemand.com/sap/byd/odata/v1/c4c.svc/OpportunityCollection?$filter=AccountID eq '1026215'"
+#URL_filt = "https://my304338.crm.ondemand.com/sap/byd/odata/v1/c4c.svc/OpportunityCollection?$filter=AccountID eq '1026215'"
 #$root_svc = "https://my304338.crm.ondemand.com/sap/byd/odata/v1/C4C.SVC"
-#$svc = OData::Service.new $root_svc, { :username => "youngm", :password=> "Mw2young" }
-#svc = OData::Service.new root_svc, { :verify_ssl => false }, { :username => "youngm", :password=> "Mw2young" }
 
 #To Filter opportunities by AccountID
 def get_acct_opps(accountID)
