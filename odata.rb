@@ -13,7 +13,7 @@ def get_acct_opps(accountID)
     puts "For AccountID: #{accountID}"
     accountID = "'" + accountID.to_s + "'"
     filter_str = "AccountID eq " + accountID
-    $svc.OpportunityCollection.filter(filter_str).orderby("WeightedValue desc")
+    $svc.OpportunityCollection.filter(filter_str) #.orderby("WeightedValue desc")
     account_opps = $svc.execute
     #puts account_opps.as_json
     return account_opps #returns a collection of Opportunity class Objects
