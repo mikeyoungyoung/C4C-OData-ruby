@@ -36,6 +36,9 @@
       assignedFileDataType = "public.html">
    </FileRef>
    <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
       location = "group:Gemfile">
    </FileRef>
 </Workspace>
