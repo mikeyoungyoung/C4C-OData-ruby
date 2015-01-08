@@ -24,8 +24,9 @@ with your specific details
 ## Running the Application
 
 Once verified that ruby is on your local machine, navigate to the directory containing app.rb 
-and run 
+and run
     ruby app.rb
-
+Then open a browser and go to
+    localhost:4567
 The application can also be run on your PaaS provider of choice so longs as they provide support 
 for Sinatra Applications
