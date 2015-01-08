@@ -7,8 +7,8 @@ require 'haml'
 require_relative 'odata'
 include FileUtils::Verbose
 
-$root_svc = "https://my304338.crm.ondemand.com/sap/byd/odata/v1/C4C.SVC"
-$svc = OData::Service.new $root_svc, { :username => "youngm", :password=> "Mw2young" }
+$root_svc = "https://myXXXXXX.crm.ondemand.com/sap/byd/odata/v1/C4C.SVC"
+$svc = OData::Service.new $root_svc, { :username => "XXXXXX", :password=> "XXXXXX" }
 
 get '/' do
     #@oppt_list = get_acct_opps(1026215)
