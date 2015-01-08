@@ -1,6 +1,5 @@
 %table.table.table-hover
-  = puts @oppt_list.size
-  - if @oppt_list.size > 0
+  - if @oppt_list
     .page-header
       %h2
         = "Opportunities for " + @oppt_list.first.AccountName
