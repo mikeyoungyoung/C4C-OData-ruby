@@ -17,7 +17,6 @@ hard-coded root service and authentication credentials.  More security could be 
 use of OAuth in C4C.  The following is a snippet from lines 10 & 11 of app.rb.  Replace all XXXXXX 
 with your specific details
 
-    [default]
     $root_svc = "https://myXXXXXX.crm.ondemand.com/sap/byd/odata/v1/C4C.SVC"
     $svc = OData::Service.new $root_svc, { :username => "<user name>", :password=> "<password>" }
 
