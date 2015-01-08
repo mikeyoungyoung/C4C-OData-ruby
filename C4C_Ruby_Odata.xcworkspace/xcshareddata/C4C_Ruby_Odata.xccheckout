@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>937F29FF-0665-49AF-8A1C-2123F33F31E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>C4C_Ruby_Odata</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FACA89540AF4820465C022B3C6F1388321EB4452</key>
+		<string>https://github.com/awslabs/aws-ruby-sample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C4C_Ruby_Odata.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FACA89540AF4820465C022B3C6F1388321EB4452</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/awslabs/aws-ruby-sample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FACA89540AF4820465C022B3C6F1388321EB4452</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FACA89540AF4820465C022B3C6F1388321EB4452</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aws-ruby-sample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

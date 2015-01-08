@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Public">
+      <Group
+         location = "container:"
+         name = "CSS">
+         <FileRef
+            location = "group:public/css/bootstrap-theme.css">
+         </FileRef>
+         <FileRef
+            location = "group:public/css/bootstrap.css">
+         </FileRef>
+         <FileRef
+            location = "group:public/css/the-big-picture.css">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:odata.rb">
+   </FileRef>
+   <FileRef
+      location = "group:app.rb">
+   </FileRef>
+   <FileRef
+      location = "group:app_v2.rb">
+   </FileRef>
+   <FileRef
+      location = "group:views/index.haml"
+      assignedFileDataType = "public.html">
+   </FileRef>
+   <FileRef
+      location = "group:views/layout.haml"
+      assignedFileDataType = "public.html">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile">
+   </FileRef>
+</Workspace>

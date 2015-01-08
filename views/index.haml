@@ -1,0 +1,32 @@
+%table.table.table-hover
+  - if @oppt_list
+    .page-header
+      %h2
+        = "Opportunities for " + @oppt_list.first.AccountName
+    %thead
+      %tr.info
+        %td
+          %h4
+            Description
+        %td
+          %h4
+            Status
+        %td
+          %h4
+            Phase
+        %td
+          %h4
+            Value
+    - @oppt_list.each do |oppt|
+      %tr
+        %td
+          %a{:href => oppt.CRMUILink}
+            = oppt.Name.to_s
+        %td
+          = oppt.StatusText
+        %td
+          = oppt.SalesPhaseText
+        %td
+          = oppt.WeightedValue.content
+  - else
+    = "Nothing Found"
